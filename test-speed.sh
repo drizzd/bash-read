@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
 rm -f speed speed.exe &&
-gcc -O2 speed.c -ospeed &&
-time ./speed
+gcc -O0 speed.c -ospeed &&
+./speed
